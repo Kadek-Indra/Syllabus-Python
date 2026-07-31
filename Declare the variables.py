@@ -1,3 +1,4 @@
+print ("Calculator Root")
 nama = "Indra"
 umur = 16
 tinggi = 170.5
