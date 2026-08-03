@@ -1,3 +1,4 @@
+# Logical operators & ternary
 age = int(input("Enter your age : "))
 result = "You are a man" if age >= 17 and age <= 40 else "You are not a man"
 print (result)
