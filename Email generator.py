@@ -1,3 +1,4 @@
+# String manipulation
 import sys
 print ("CREATE AN EMAIL")
 frontname = input("Enter your first name                  : ")
