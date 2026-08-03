@@ -1,4 +1,4 @@
-# sss
+# For and while loop
 import time
 
 second = int(input("Enter the time in seconds : "))
