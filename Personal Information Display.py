@@ -1,3 +1,4 @@
+# Declare the variables using data types
 nama = "Indra"
 umur = 16
 tinggi = 170.5
