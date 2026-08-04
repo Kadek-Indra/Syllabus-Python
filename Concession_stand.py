@@ -1,3 +1,4 @@
+#dictionary simple program
 menu = {"nachos": 3.5,
         "sprite": 1.5,
         "milo": 2,
