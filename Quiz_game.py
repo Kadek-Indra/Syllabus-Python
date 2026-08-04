@@ -1,10 +1,10 @@
 # Multiple-choice quiz
 
-questions = ("What is the most large country in the world? : ",
-             "How country joining world cup 2026? : ",
-             "Which one is the correct amount of the planets  in the solar system : ",
-             "What is the hardware in computer that used to type? : ",
-             "Where is spiderman actioning? : ")
+questions = ("What is the largest country in the world? : ",
+             "How many country that have joined world cup 2026? : ",
+             "How many planets are there in the solar system? : ",
+             "Which computer hardware is used for typing? : ",
+             "Where does Spider-man usually fight crime? : ")
 
 options = (("A. Russian", "B. USA", "C. Chine", "D. Indonesia", "E. Japan"),
           ("A. 36", "B. 48", "C. 100", "D. 26", "E. 666"),
@@ -17,7 +17,7 @@ guesses = []
 score = 0
 question_num = 0
 
-for question in questions:
+for question_num, question in enumerate(questions):
     print("----------------------------------")
     print(question)
     for option in options[question_num]:
@@ -31,7 +31,6 @@ for question in questions:
     else:
         print("YOUR ANSWER IS INCORRECT!")
         print(f"The right answer is {answers[question_num]}")
-    question_num += 1
 
 print ("==========================")
 print ("       FINAL RESULT       ")
