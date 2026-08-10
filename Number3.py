@@ -14,6 +14,8 @@ def weekday(day):
             return "Friday"
         case 7:
             return "Saturday"
+        case _:
+            return "Wrong, please enter a number between 1 and 7"
 
 print (weekday(day = int(input("Enter your number : "))))
         
