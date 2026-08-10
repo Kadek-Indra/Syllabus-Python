@@ -4,6 +4,7 @@ running = True
 
 
 while running:
+    total = 0
 
     print ("=== Validation Card Number ===")
     number = input("Enter the card number : ")
@@ -13,8 +14,8 @@ while running:
     
 
     for index, digit in enumerate(number):
+        digit = int(digit)
         if index % 2 == 1:
-            digit = int(digit)
             digit *= 2
             if digit > 9:
                 digit -= 9
