@@ -1,0 +1,4 @@
+Andi       : 16
+Budi       : 17
+Clara      : 16
+Dimas      : 25
